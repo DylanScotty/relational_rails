@@ -4,5 +4,6 @@ class ShuttlesController < ApplicationController
     end
 
     def show
+        @shuttle = Shuttle.find(params[:id])
     end
 end
