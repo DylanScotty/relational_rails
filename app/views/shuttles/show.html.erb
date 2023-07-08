@@ -1,4 +1,7 @@
+
 <h1> <%= @shuttle.name %></h1>
+<p><%= link_to "Astronauts on the #{@shuttle.name}", "/shuttles/#{@shuttle.id}/astronauts" %></p>
 <p>In Service: <%= @shuttle.in_service %></p>
 <p>Year Built: <%= @shuttle.year_built %></p>
+<p>Astronauts: <%= @shuttle.astronauts.count %></p>
 

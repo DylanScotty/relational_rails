@@ -225,6 +225,10 @@
           null,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -234,10 +238,72 @@
           null
         ]
       },
-      "/Users/dylantimmons/2Mod/relational_rails/app/models/shuttle.rb": {
+      "/Users/dylantimmons/2Mod/relational_rails/spec/features/astronauts/show_spec.rb": {
         "lines": [
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/spec/features/shuttles/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/spec/features/shuttles/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/app/models/shuttle.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       },
@@ -248,13 +314,22 @@
           null
         ]
       },
-      "/Users/dylantimmons/2Mod/relational_rails/app/controllers/shuttles_controller.rb": {
+      "/Users/dylantimmons/2Mod/relational_rails/app/models/astronaut.rb": {
         "lines": [
           1,
           1,
-          0,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/app/controllers/astronauts_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
           null,
           null,
+          1,
           1,
           null,
           null
@@ -265,8 +340,21 @@
           1,
           null
         ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/app/controllers/shuttles_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1688686829
+    "timestamp": 1688853721
   }
 }

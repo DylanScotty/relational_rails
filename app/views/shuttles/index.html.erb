@@ -1,5 +1,6 @@
 <h1>Shuttles</h1>
-<% @shuttles.each do |shuttle| %>
-    <p><%= shuttle.name %></p>
+<% @shuttles.order(created_at: :desc).each do |shuttle| %>
+    <h3><%= shuttle.name %></h3>
+    <p><%= shuttle.created_at %></p>
 
 <% end %>
