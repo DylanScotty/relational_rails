@@ -1,8 +1,8 @@
 <h1>Astronauts</h1>
 
-<% @astronauts.each do |astronaut| %>
+<% @astronauts.where(space_veteran: true).each do |astronaut| %>
     <h3><%= astronaut.name %></h3>
     <p>Age: <%= astronaut.age %></p>
-    <p>Space_veteran: <%= astronaut.space_veteran %></p>
+    <p>Space Veteran: <%= astronaut.space_veteran %></p>
 <% end %>
 
