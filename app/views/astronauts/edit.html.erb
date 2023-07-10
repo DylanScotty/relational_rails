@@ -1,0 +1,11 @@
+<h1><%= "Edit #{@astronaut.name}" %></h1>
+
+    <%= form_with url: "/astronauts/#{@astronaut.id}", method: :patch, local: true do |form| %>
+    <%= form.label :name %>
+    <%= form.text_field :name%> <br>
+    <%= form.label :age %>
+    <%= form.text_field :age %> <br>
+    <%= form.radio_button :space_veteran, 'true' %> true
+    <%= form.radio_button :space_veteran, 'false' %> false <br>
+    <%= form.submit "Update Shuttle" %>
+ <% end %>

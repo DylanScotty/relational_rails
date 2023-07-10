@@ -4,4 +4,5 @@
 <p>In Service: <%= @shuttle.in_service %></p>
 <p>Year Built: <%= @shuttle.year_built %></p>
 <p>Astronauts: <%= @shuttle.astronauts.count %></p>
+<p><%= link_to "Update Shuttle", "/shuttles/#{@shuttle.id}/edit" %></p>
 

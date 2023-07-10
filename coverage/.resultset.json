@@ -229,6 +229,14 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -259,6 +267,38 @@
           null
         ]
       },
+      "/Users/dylantimmons/2Mod/relational_rails/spec/features/shuttles/edit_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/dylantimmons/2Mod/relational_rails/spec/features/shuttles/index_spec.rb": {
         "lines": [
           1,
@@ -271,6 +311,30 @@
           null,
           1,
           1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/spec/features/shuttles/new_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
           1,
           1,
           null,
@@ -300,7 +364,16 @@
           null
         ]
       },
-      "/Users/dylantimmons/2Mod/relational_rails/app/models/shuttle.rb": {
+      "/Users/dylantimmons/2Mod/relational_rails/spec/models/astronaut_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/app/models/astronaut.rb": {
         "lines": [
           1,
           1,
@@ -314,7 +387,13 @@
           null
         ]
       },
-      "/Users/dylantimmons/2Mod/relational_rails/app/models/astronaut.rb": {
+      "/Users/dylantimmons/2Mod/relational_rails/spec/models/shuttle_spec.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/dylantimmons/2Mod/relational_rails/app/models/shuttle.rb": {
         "lines": [
           1,
           1,
@@ -332,6 +411,22 @@
           1,
           1,
           null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
           null
         ]
       },
@@ -345,16 +440,41 @@
         "lines": [
           1,
           1,
+          3,
+          null,
+          null,
           1,
+          4,
+          null,
+          null,
+          1,
+          2,
           null,
           null,
           1,
           1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1688853721
+    "timestamp": 1688947665
   }
 }

@@ -1,6 +1,8 @@
 <h1>Shuttles</h1>
+<%= link_to 'New Shuttle', '/shuttles/new' %>
 <% @shuttles.order(created_at: :desc).each do |shuttle| %>
     <h3><%= shuttle.name %></h3>
     <p><%= shuttle.created_at %></p>
+
 
 <% end %>
