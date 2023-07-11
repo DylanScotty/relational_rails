@@ -1,0 +1,12 @@
+<h1> Create New Shuttle </h1>
+
+    <%= form_with url: '/shuttles/', method: :post, local: true do |form| %>
+        <%= form.label :name %>
+        <%= form.text_field :name %> <br>
+        <%= form.label :in_service %>
+        <%= form.radio_button :in_service, 'true' %> true
+        <%= form.radio_button :in_service, 'false' %> false <br>
+        <%= form.label :year_built %>
+        <%= form.text_field :year_built %> <br>
+        <%= form.submit "Create Shuttle" %>
+<% end %>

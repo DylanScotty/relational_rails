@@ -1,8 +1,7 @@
-<h1>Astronauts</h1>
+<h1><%= "#{@shuttle.name} Astronauts - Sorted by Name" %></h1>
 
-<% @astronauts.where(space_veteran: true).each do |astronaut| %>
+<% @astronauts.each do |astronaut| %>
     <h3><%= astronaut.name %></h3>
     <p>Age: <%= astronaut.age %></p>
     <p>Space Veteran: <%= astronaut.space_veteran %></p>
 <% end %>
-

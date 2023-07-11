@@ -1,4 +1,6 @@
 <h1>Astronauts on Shuttle: <%= @shuttle.name %></h1>
+<%= button_to "New #{@shuttle.name} Astronaut", "/shuttles/#{@shuttle.id}/astronauts/new", method: :get %>
+<%= button_to "Sort Astronauts in Alphabetical Order", "/shuttles/#{@shuttle.id}/astronauts/sort", method: :get %>
 
 <% @shuttle_astronauts.each do |astronaut| %>
     <h3><%= astronaut.name %></h3>
