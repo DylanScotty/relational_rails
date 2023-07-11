@@ -10,8 +10,8 @@ RSpec.describe 'the astronauts index' do
         expect(page).to have_content(astronaut_1.name)
         expect(page).to have_content(astronaut_1.age)
         expect(page).to have_content(astronaut_1.space_veteran)
-        # expect(page).to have_content(astronaut_2.name) 
-        # expect(page).to have_content(astronaut_2.age)
-        # expect(page).to have_content(astronaut_2.space_veteran)
+        expect(page).to_not have_content(astronaut_2.name) 
+        expect(page).to_not have_content(astronaut_2.age)
+        expect(page).to_not have_content(astronaut_2.space_veteran)
     end
 end

@@ -17,5 +17,7 @@ Rails.application.routes.draw do
   get '/shuttles/:shuttle_id/astronauts/new', to: 'shuttle_astronauts#new'
   get '/astronauts/:id/edit', to: 'astronauts#edit'
   patch '/astronauts/:id', to: 'astronauts#update'
+  get '/shuttles/:shuttle_id/astronauts', to: 'astronauts#index', as: 'sort_astronauts'
+  get '/shuttles/:shuttle_id/astronauts/sort', to: 'astronauts#sort'
   
 end

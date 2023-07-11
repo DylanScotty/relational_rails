@@ -18,6 +18,11 @@ class AstronautsController < ApplicationController
         redirect_to "/astronauts/#{astronaut.id}"
     end
 
+    def sort
+        @shuttle = Shuttle.find(params[:shuttle_id])
+        @astronauts = @shuttle.astronauts.order(:name)
+    end
+
     private
 
     def astronaut_params
